@@ -1,0 +1,94 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: inherit;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'comfortaa';
+}
+/* ------------------------------------------------------ */
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background: #b1e9f5;
+}
+
+#imgAvatar{
+    height: 50%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+@media screen and (min-width: 960px) {
+
+    header{
+        clip-path: polygon(100% 0%, 100% 90%, 0% 100%, 0% 0%);
+    }
+
+    /* Navbar */
+    #recherche{
+        width: 75%;
+    }
+    .carousel{
+        width: 50%;
+    }
+    /* Navbar */
+
+    /* Header Section de droite */
+    #welcome{
+        width: 50%;
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
+    #welcome div{
+        margin-top: 5rem;
+    }
+    h2{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    /* Header Section de droite */
+    
+    /* Resultat du formulaire */
+    #resultat{
+        display: flex;
+    }
+    #resultat p{
+        font-size: 1.5rem;
+    }
+    #choix button{
+        width: 20%;
+    }
+    #info{
+        width: 70%;
+        text-align: center;
+    }
+    #imgAvatar{
+        width: 150px;
+        height: 100%;
+        border-radius: 100%;
+        margin-left: auto;
+    }
+    /* Resultat du formulaire */
+}
